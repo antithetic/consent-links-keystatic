@@ -17,6 +17,8 @@
     "@astrojs/sitemap": "^3.4.0",
     "@astrojs/vercel": "^8.1.4",
     "@fontsource-variable/azeret-mono": "^5.2.6",
+    "@keystatic/astro": "^5.0.6",
+    "@keystatic/core": "^0.5.47",
     "@tailwindcss/vite": "^4.1.4",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.4",
