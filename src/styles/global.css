@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-300 text-black;
+  @apply min-h-screen;
+  @apply p-4 md:p-8;
+  font-family: 'Azeret Mono', monospace;
+}
+
+/* Starter Styles */
+/* Remove when you start your project */
+.starter {
+  @apply mt-8;
+}
+
+.starter header {
+  @apply mb-8 border-b-4 border-black pb-4;
+}
+
+.starter header h1 {
+  @apply text-2xl font-bold tracking-tighter md:text-4xl;
+}
+
+.starter header p {
+  @apply mt-2 text-sm md:text-base;
+}
+
+.starter h2 {
+  @apply text-xl font-bold tracking-tighter md:text-2xl;
+}
+
+.starter .content-box {
+  display: block;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 2px solid #000;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+  @apply mb-8;
+}
+#integrations p{
+  @apply mb-2;
+}
+#integrations li {
+ @apply mb-0.5;
+}
+#development h3{
+  @apply mb-2;
+}
+#development li {
+  @apply mb-2;
+}
+#getting-started ol {
+  @apply list-decimal pl-8;
+}
+#getting-started li {
+  @apply mb-2 ;
+}
+#getting-started li code {
+  @apply bg-gray-200 p-1 rounded;
+}
