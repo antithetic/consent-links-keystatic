@@ -13,6 +13,11 @@ import showTailwindcssBreakpoint from 'astro-show-tailwindcss-breakpoint';
 
 import icon from 'astro-icon';
 
+import react from '@astrojs/react';
+import markdoc from '@astrojs/markdoc';
+
+import keystatic from '@keystatic/astro'
+
 // https://astro.build/config
 export default defineConfig({
   vite: {
@@ -24,6 +29,6 @@ export default defineConfig({
   // update to 'server' if you want to use server-side rendering
   output: 'static',
 
-  integrations: [sitemap(), showTailwindcssBreakpoint(), icon(), mdx()],
+  integrations: [sitemap(), showTailwindcssBreakpoint(), icon(), mdx(), react(), markdoc(), keystatic()],
   adapter: vercel(),
 });
