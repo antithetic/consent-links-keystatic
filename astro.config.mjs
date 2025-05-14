@@ -25,7 +25,7 @@ export default defineConfig({
   },
 
   //update this to your own domain
-  site: 'https://starter.consent.press',
+  site: 'https://consent-links-keystatic.vercel.app',
   // update to 'server' if you want to use server-side rendering
   output: 'static',
 
