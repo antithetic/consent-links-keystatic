@@ -47,13 +47,13 @@ body {
   overflow: hidden;
   @apply mb-8;
 }
-#integrations p{
+#integrations p {
   @apply mb-2;
 }
 #integrations li {
- @apply mb-0.5;
+  @apply mb-0.5;
 }
-#development h3{
+#development h3 {
   @apply mb-2;
 }
 #development li {
@@ -63,8 +63,8 @@ body {
   @apply list-decimal pl-8;
 }
 #getting-started li {
-  @apply mb-2 ;
+  @apply mb-2;
 }
 #getting-started li code {
-  @apply bg-gray-200 p-1 rounded;
+  @apply rounded bg-gray-200 p-1;
 }
