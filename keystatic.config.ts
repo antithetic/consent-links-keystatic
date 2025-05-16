@@ -5,11 +5,12 @@ export default config({
   storage: {
     kind: 'local',
   },
+  
   collections: {
     posts: collection({
-      label: 'Links',
+      label: 'Posts',
       slugField: 'title',
-      path: 'src/content/links/*',
+      path: 'src/content/posts/*',
       format: { contentField: 'content' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
